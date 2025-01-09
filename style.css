@@ -6,8 +6,8 @@ body{
 
 .center-title{
     position: absolute;
-    z-index: 2;
-    color: #e4d2d2;
+    z-index: 3;
+    color: #353535;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -18,13 +18,13 @@ body{
 
 .center-text{
     position: absolute;
-    z-index: 2;
-    color: #e4d2d2;
+    z-index: 3;
+    color: #353535;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1rem;
-    padding-top: 3%;
+    padding-top: 4%;
     font-family: "Montserrat", serif;
 }
 
@@ -123,4 +123,27 @@ body{
 
 .right-bottom-text{
     transform: translate(7vw,30vh);
+}
+
+.gender-text{
+    position: absolute;
+    z-index: 4;
+    right: 1%;
+    bottom: 3%;
+    font-size: 0.7rem;
+    color: #e4d2d2;
+    font-family: "Zen Kaku Gothic New", serif;
+}
+
+.circle{
+    position: absolute;
+    z-index: 2;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    background-color: #e4d2d2;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
