@@ -100,7 +100,7 @@ body{
     transform: translate(30vw,15vh);
 }
 
-.left-middle-text {
+.left-middle-text{
     top: 50%;
     left: 25%;
     transform: translate(-35vw, -50%);
@@ -146,4 +146,94 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1200px){
+    .text{
+        font-size: 1rem;
+    }
+
+    .center-title{
+        font-size: 1.3rem;
+        color: #e4d2d2;
+    }
+
+    .center-text{
+        font-size: 0.7rem;
+        color: #e4d2d2;
+    }
+
+    .circle{
+        width: 40vw;
+        height: 40vw;
+        visibility: hidden;
+    }
+
+}
+
+@media (max-width: 767px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .circle{
+        width: 40vw;
+        height: 40vw;
+        visibility: hidden;
+    }
+
+    .center-title{
+        font-size: 1.3rem;
+        color: #e4d2d2;
+    }
+
+    .center-text{
+        font-size: 0.7rem;
+        margin-top: 4%;
+        color: #e4d2d2;
+    }
+
+    .text{
+        font-size: 1rem;
+    }
+
+    .left-top-text{
+        transform: rotate(65deg);
+        top: 35%;
+        left: 38%;
+    }
+
+    .left-middle-text{
+        margin-left: -15px;
+    }
+
+    .left-bottom-text{
+        transform: rotate(-65deg);
+        bottom: 35%;
+        left: 38%;
+    }
+
+    .right-top-text{
+        transform: rotate(-65deg);
+        top: 35%;
+        right: 38%;
+    }
+
+    .right-middle-text{
+        margin-left: 15px;
+    }
+
+    .right-bottom-text{
+        transform: rotate(65deg);
+        bottom: 35%;
+        right: 40%;
+    }
+
+    .gender-text{
+        margin: 0 5%;
+        font-size: 0.5rem;
+        right: 0;
+    }
 }
